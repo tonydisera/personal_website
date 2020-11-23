@@ -1,0 +1,205 @@
+header a.logo.tony img {
+    max-width: 250px;
+    vertical-align: sub;
+    margin-left: 100px;
+}
+
+.dark-slider h2 {
+    font-size: 3.8rem !important;
+    font-weight: 100 !important;
+    color: gray;
+}
+
+div#external-publications-grid .external-publication {
+    padding-bottom: 80px;
+    font-size: 18px !important;
+    display: inline-block;
+    
+}
+div#external-publications-grid span.external-publication-title {
+    font-weight: 700;
+    color: #262d86;
+    font-size: 22px;
+}
+div#external-publications-grid p {
+    margin-bottom: 10px;
+}
+
+a.pdf-link, a.pdf-link:hover {
+    text-decoration: underline;
+    margin-bottom: 0px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 18px !important;
+    color: #55a5ae;
+    margin-top: -10px;
+    display: inline-block;
+}
+
+.app-feature h4 {
+    line-height: 27px !important;
+}
+
+.address-social a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 45px;
+}
+.title.tony p {
+    max-width: 720px;
+    margin: 0 auto 0 0px;
+}
+
+.app-feature h4 {
+    line-height: 30px !important;
+}
+
+p {
+    margin-bottom: 0;
+    color: #646464;
+}
+.third-color {
+     color: #09bbd9;
+}
+
+
+
+.gradient-bg1{
+    background: #4175c7;
+    background: -moz-linear-gradient(left, #4175c7 2%, #421465 82%);
+    background: -webkit-linear-gradient(left, #4175c7 2%,#421465 82%);
+    background: linear-gradient(to right, #4175c7 2%,#421465 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4175c7', endColorstr='#421465',GradientType=1 );
+}
+
+.gradient-text1{
+    background: #3264f5;
+    background: -moz-linear-gradient(left, #4175c7 2%, #421465 82%);
+    background: -webkit-linear-gradient(left, #4175c7 2%,#421465 82%);
+    background: linear-gradient(to right, #4175c7 2%,#421465 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4175c7', endColorstr='#421465',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn.btn-gradient, .scroll-top-arrow{
+    background-image: linear-gradient(to right, #415285 0%, #112674 51%, #415285 100%);
+}
+
+.navbar.navbar-top-default {
+    background-color: #f1f1f1 !important;
+    height: 70px;
+}
+
+.header-appear .navbar.navbar-top-default{
+    background-color: white !important;
+}
+
+.loader {
+    background: #2b62b8;
+    background: -moz-linear-gradient(left, #2b62b8 2%, #544179 82%);
+    background: -webkit-linear-gradient(left, #2b62b8 2%,#544179 82%);
+    background: linear-gradient(to right, #2b62b8 2%,#544179 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b62b8', endColorstr='#544179',GradientType=1 );
+}
+
+.contact-form .form-control {
+    color: #6a6969 !important;
+    font-size: 20px !important;
+}
+.tp-parallax-wrap h2 {
+    font-size: 70px !important;
+    line-height: initial !important;
+}
+
+@media screen and (max-width:1024px) {
+    .tp-parallax-wrap h2 {
+        font-size: 40px !important;
+        margin-top: 40px !important;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .tp-caption#layers-two img {
+        padding-top: 40px !important;
+    }
+
+    .tp-caption#layers-three img {
+        padding-bottom: 80px !important;
+    }
+    .tp-caption#layers-six img {
+        padding-bottom: 80px !important;
+    }
+    .tp-parallax-wrap h2 {
+        font-size: 50px !important;
+        margin-top: 100px !important;
+    }
+    #about .work-links img {
+        max-width: 40% !important;
+    }
+    #about .uofu_logo img {
+        max-width: 15% !important;
+    }
+    #u_video {
+        width: 70% !important;
+        min-height: 250px !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .tp-caption img {
+        display: none !important;
+    }
+    .tp-caption#layers-two img {
+        display: initial !important;
+        padding-bottom: 0px !important;
+        padding-top: 40px !important;
+    }
+    .tp-caption#layers-six img {
+        display: none !important;
+    }
+    .tp-caption#layers-three img {
+        display: initial !important;
+        padding-bottom: 90px !important;
+        padding-left: 240px !important;
+    }
+    .tp-parallax-wrap h2 {
+        font-size: 50px !important;
+        line-height: 52px !important;
+        margin-top: 40px !important;
+    }
+    #about .work-links img {
+        max-width: 40% !important;
+    }
+    #about .uofu_logo img {
+        max-width: 15% !important;
+    }
+    #u_video {
+        width: 90% !important;
+        min-height: 150px !important;
+    }
+    #about .pics {
+        text-align: center !important;
+    }
+    #about .pics img {
+        padding-top: 5px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 10px;
+    }
+    #about .berkeley-logo {
+        height: initial !important;
+    }
+
+    #publications .external-authors-para, .external-other-authors-para {
+        white-space: normal !important;
+        font-size: 14px;
+        line-height: 15px;
+        margin-right: 20px;
+    }
+}
+
